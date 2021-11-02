@@ -2590,7 +2590,7 @@ ul.breadcrumb li:last-child {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #12ffff;
+  background: #ffedad;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2609,4 +2609,10 @@ ul.breadcrumb li:last-child {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+body {
+  background: url("https://i.loli.net/2021/11/02/XMPsAYvCjDRizkN.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
 }
