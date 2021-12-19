@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff3494;
+  background: #9412a4;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2298,4 +2298,16 @@ body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
+  opacity: 0.5;
+}
+.header-inner {
+  opacity: 0.85;
+}
+.sidebar {
+  transition-duration: 0.4s;
+  opacity: 0.85;
+}
+.content {
+  padding-top: 15px;
+  opacity: 0.9;
 }
